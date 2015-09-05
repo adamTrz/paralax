@@ -35,6 +35,14 @@ $(window).scroll(function(){
 
   if (wScroll > $('.large-window.one').offset().top - $(window).height()) {
   		$('.large-window').css({'background-position':'center '+ (wScroll-$('.large-window.one').offset().top) +'px'});
+  		var opacity = (wScroll - $('.large-window.one').offset().top + 400) / (wScroll/8)
+  		$('.one .window-tint').css({'opacity': opacity});
+
+  }
+    if (wScroll > $('.large-window.two').offset().top - $(window).height()) {
+  		$('.large-window').css({'background-position':'center '+ (wScroll-$('.large-window.two').offset().top) +'px'});
+  		var opacity = (wScroll - $('.large-window.two').offset().top + 400) / (wScroll/8)
+  		$('.two .window-tint').css({'opacity': opacity});
 
   }
 
