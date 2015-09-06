@@ -883,15 +883,15 @@ img {
 .bird-box {
   position: relative;
   height: 600px;
-  background-image: url(../images/bird-bg.jpg);
+  background-image: url(/images/bird-bg.jpg);
   background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
-  background-overflow: hidden; }
+  overflow: hidden; }
   .bird-box .logo {
     height: 100px;
     width: 100%;
-    background-image: url(../images/black-bird-logo.svg);
+    background-image: url(/images/black-bird-logo.svg);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -901,18 +901,18 @@ img {
 .fore-bird {
   width: 960px;
   height: 733px;
-  background-image: url(../images/fore-bird.png);
+  background-image: url(/images/fore-bird.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
   left: 50%;
-  margin-left: -480px;
+  margin-left: -400px;
   top: 380px; }
 
 .back-bird {
   width: 960px;
   height: 298px;
-  background-image: url(../images/back-bird.png);
+  background-image: url(/images/back-bird.png);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
@@ -925,8 +925,8 @@ img {
     margin-bottom: 20px;
     position: relative;
     opacity: 0;
-    transform: translateX(-20px);
-    transition: all 0.3s ease-in-out;
+    transform: translateX(30px);
+    transition: all 0.4s ease-in-out;
     overflow: hidden;
     cursor: pointer; }
     .clothes-pics figure.is-showing {
@@ -960,9 +960,9 @@ figcaption {
   background-repeat: repeat-y;
   background-attachment: fixed; }
   .large-window.one {
-    background-image: url(../images/211H.jpg); }
+    background-image: url(/images/211H.jpg); }
   .large-window.two {
-    background-image: url(../images/202H.jpg); }
+    background-image: url(/images/202H.jpg); }
   .large-window .window-tint {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -1005,5 +1005,19 @@ figcaption {
     padding: 20px 20px 0;
     background: white;
     position: relative; }
+
+footer {
+  background: black;
+  color: white;
+  padding: 40px 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+  footer .footer-wrap {
+    max-width: 640px;
+    margin: 0 auto; }
+  footer a {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
