@@ -13,6 +13,7 @@ figure
   margin-bottom: 400px
   overflow: hidden
 
+
   article
     padding: 100px 0
     max-width: 640px
@@ -27,17 +28,18 @@ img
   position: relative
   height: 600px
   background:
-    image: url(../images/bird-bg.jpg)  
+    image: url(/images/bird-bg.jpg)  
     size: auto 600px
     position: top center
     attachment: fixed
-    overflow: hidden
+  overflow: hidden
+  
 
   .logo
     height: 100px
     width: 100%
     background:
-      image: url(../images/black-bird-logo.svg)
+      image: url(/images/black-bird-logo.svg)
       position: center
       repeat: no-repeat
     position: absolute
@@ -48,19 +50,19 @@ img
   width: 960px
   height: 733px
   background:
-    image: url(../images/fore-bird.png)
+    image: url(/images/fore-bird.png)
     repeat: no-repeat
     position: right bottom
   position: absolute
   left: 50%
-  margin-left: -480px
+  margin-left: -400px
   top: 380px
 
 .back-bird
   width: 960px
   height: 298px
   background:
-    image: url(../images/back-bird.png)
+    image: url(/images/back-bird.png)
     repeat: no-repeat
     position: top left
   position: absolute
@@ -75,8 +77,8 @@ img
     margin-bottom: 20px
     position: relative
     opacity: 0
-    transform: translateX(-20px)
-    transition: all 0.3s ease-in-out
+    transform: translateX(30px)
+    transition: all 0.4s ease-in-out
     overflow: hidden
     cursor: pointer
 
@@ -120,12 +122,12 @@ figcaption
 
   &.one
     background: 
-      image: url(../images/211H.jpg)
+      image: url(/images/211H.jpg)
       
 
   &.two
     background: 
-      image: url(../images/202H.jpg)
+      image: url(/images/202H.jpg)
     
   .window-tint
     background-color: rgba(0,0,0,0.5)
@@ -167,3 +169,31 @@ figcaption
       &:hover
         background: rgba(255,255,255,0.6)
         color: black
+
+//blog
+.blog-posts
+  margin-top: 50px
+
+  .post
+    border: 1px solid #e1e1e1
+    padding: 20px 20px 0 
+    background: white
+    position: relative
+
+// Footer
+
+footer
+  background: black
+  color: white
+  padding: 40px 0 0
+  position: fixed
+  bottom: 0
+  width: 100%
+  z-index: -1
+
+  .footer-wrap
+    max-width: 640px
+    margin: 0 auto
+
+  a
+    color: white
