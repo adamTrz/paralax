@@ -883,7 +883,7 @@ img {
 .bird-box {
   position: relative;
   height: 600px;
-  background-image: url(/images/bird-bg.jpg);
+  background-image: url(../images/bird-bg.jpg);
   background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
@@ -891,7 +891,7 @@ img {
   .bird-box .logo {
     height: 100px;
     width: 100%;
-    background-image: url(/images/black-bird-logo.svg);
+    background-image: url(../images/black-bird-logo.svg);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -901,7 +901,7 @@ img {
 .fore-bird {
   width: 960px;
   height: 733px;
-  background-image: url(/images/fore-bird.png);
+  background-image: url(../images/fore-bird.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -912,7 +912,7 @@ img {
 .back-bird {
   width: 960px;
   height: 298px;
-  background-image: url(/images/back-bird.png);
+  background-image: url(../images/back-bird.png);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
@@ -960,9 +960,9 @@ figcaption {
   background-repeat: repeat-y;
   background-attachment: fixed; }
   .large-window.one {
-    background-image: url(/images/211H.jpg); }
+    background-image: url(../images/211H.jpg); }
   .large-window.two {
-    background-image: url(/images/202H.jpg); }
+    background-image: url(../images/202H.jpg); }
   .large-window .window-tint {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
